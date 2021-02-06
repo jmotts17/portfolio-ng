@@ -1,0 +1,26 @@
+.navbar {
+  padding: 2rem 5rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#logo {
+  color: rgb(47, 93, 140);
+  font-size: 30px;
+}
+
+#logo:hover {
+  transition: 3s;
+  transform: rotate(360deg);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(47, 93, 140);
+  transition: 0.3s;
+}
