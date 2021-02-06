@@ -1,0 +1,10 @@
+/* Home/About Section */
+#home-about {
+  list-style-type: none;
+  margin-top: 2rem;
+  font-size: 18px;
+}
+
+#home-about li {
+  margin-top: 1rem;
+}

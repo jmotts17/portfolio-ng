@@ -9,3 +9,29 @@
 body {
   background-color: #f9f9f9;
 }
+
+/* Utilities */
+.section-title {
+  color: #d55e2d;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-container {
+  padding: 2rem;
+  margin: 3rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.section-container,
+ul,
+li {
+  background-color: #a0b3c1;
+}
