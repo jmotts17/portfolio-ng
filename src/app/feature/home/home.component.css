@@ -8,3 +8,29 @@
 #home-about li {
   margin-top: 1rem;
 }
+
+.section-container {
+  color: #fff;
+  padding: 2rem;
+  margin: 5rem;
+  border-radius: 10px;
+  box-shadow: 0 50px 100px rgb(50 50 93 / 5%), 0 15px 35px rgb(50 50 93 / 10%),
+    0 5px 15px rgb(0 0 0 / 10%);
+}
+
+.section-container,
+ul,
+li {
+  background-color: #1f2833;
+  color: #def2f1;
+  padding-left: 1rem;
+}
+
+.section-link {
+  color: #66fcf1;
+  text-decoration: none;
+}
+
+.output {
+  color: #3aafa9;
+}
