@@ -3,12 +3,14 @@
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #000;
+  color: #0b0c10;
 }
 
 #logo {
-  color: rgb(47, 93, 140);
+  color: #66fcf1;
   font-size: 30px;
+  background-color: #1f2833;
+  border-radius: 10px;
 }
 
 #logo:hover {
@@ -21,6 +23,6 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(47, 93, 140);
+  color: #45a29e;
   transition: 0.3s;
 }
