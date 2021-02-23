@@ -67,3 +67,12 @@ body {
 .my-5 {
   margin: 5rem;
 }
+
+/* HR */
+hr {
+  width: 8rem;
+  /* background-color: #45a29e; */
+  background-color: #3aafa9;
+  height: 10px;
+  margin: 2rem auto;
+}
