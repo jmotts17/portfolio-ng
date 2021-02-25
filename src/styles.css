@@ -8,6 +8,10 @@
   font-size: 18px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #c5c6c7;
   color: #1f2833;
