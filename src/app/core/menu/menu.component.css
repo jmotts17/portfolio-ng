@@ -13,11 +13,6 @@
   border-radius: 10px;
 }
 
-/* #logo:hover {
-  transition: 3s;
-  transform: rotate(360deg);
-} */
-
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.8);
 }
@@ -28,6 +23,7 @@
 }
 
 /* Pulse */
+/* https://ianlunn.github.io/Hover/#effects */
 @-webkit-keyframes hvr-pulse {
   25% {
     -webkit-transform: scale(1.1);

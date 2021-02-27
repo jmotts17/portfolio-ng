@@ -60,6 +60,7 @@
 }
 
 /* Float Shadow */
+/* https://ianlunn.github.io/Hover/#effects */
 .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
