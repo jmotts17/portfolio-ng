@@ -9,6 +9,16 @@
   margin-top: 1rem;
 }
 
+.dev-intro {
+  padding: 3rem 1rem;
+  line-height: 2;
+}
+
+.main-title {
+  font-size: 65px;
+  line-height: 1.5;
+}
+
 .section-container {
   color: #fff;
   padding: 2rem;
