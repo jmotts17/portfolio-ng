@@ -78,3 +78,10 @@ hr {
   height: 10px;
   margin: 2rem auto;
 }
+
+/* Phones */
+@media (max-width: 500px) {
+  .section-title {
+    font-size: 35px;
+  }
+}
