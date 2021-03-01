@@ -11,6 +11,7 @@
   font-size: 30px;
   background-color: #1f2833;
   border-radius: 10px;
+  margin-left: 2px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -65,4 +66,15 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  .navbar {
+    text-align: center;
+  }
+
+  #logo {
+    margin: auto;
+  }
 }
