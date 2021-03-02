@@ -24,7 +24,6 @@
 }
 
 .project-languages {
-  /* border: 3px solid #45a29e; */
   border: 3px solid #3aafa9;
   padding: 5px;
   border-radius: 10px;
@@ -114,4 +113,40 @@
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  .project-languages-container {
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .project-languages:nth-child(n + 7):nth-child(-n + 8) {
+    margin-top: 15px;
+  }
+}
+
+/* Phones */
+@media (max-width: 500px) {
+  .project-container {
+    margin: 1rem 0.5rem;
+  }
+
+  .project-languages:nth-child(n + 7):nth-child(-n + 8) {
+    margin-top: 0;
+  }
+
+  .project-languages:nth-child(n + 4):nth-child(-n + 8) {
+    margin-top: 15px;
+  }
+
+  .project-source {
+    font-size: 13px;
+    margin-left: 1.5rem;
+  }
+
+  .project-link {
+    font-size: 13px;
+  }
 }
