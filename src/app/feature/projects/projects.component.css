@@ -116,14 +116,14 @@
 }
 
 /* Tablets */
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .project-languages-container {
     flex-wrap: wrap;
     align-content: space-around;
   }
 
-  .project-languages:nth-child(n + 7):nth-child(-n + 8) {
-    margin-top: 15px;
+  .project-languages {
+    margin: 7px;
   }
 }
 
@@ -135,14 +135,6 @@
 
   .section-title {
     margin-top: 3.5rem;
-  }
-
-  .project-languages:nth-child(n + 7):nth-child(-n + 8) {
-    margin-top: 0;
-  }
-
-  .project-languages:nth-child(n + 4):nth-child(-n + 8) {
-    margin-top: 15px;
   }
 
   .project-source {
