@@ -36,7 +36,8 @@ li {
 }
 
 .section-link {
-  color: #3aafa9;
+  /* color: #3aafa9; */
+  color: #66fcf1;
   text-decoration: none;
 }
 
