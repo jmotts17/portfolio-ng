@@ -130,7 +130,11 @@
 /* Phones */
 @media (max-width: 500px) {
   .project-container {
-    margin: 1rem 0.5rem;
+    margin: 2.5rem 0.5rem;
+  }
+
+  .section-title {
+    margin-top: 3.5rem;
   }
 
   .project-languages:nth-child(n + 7):nth-child(-n + 8) {
